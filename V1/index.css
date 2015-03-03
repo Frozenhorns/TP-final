@@ -1,0 +1,22 @@
+@font-face{
+    font-family: yp;
+    src:url('../../font/kinkee/kinkee.TTF');
+    font-weight:normal;
+}
+
+body {
+    text-align: center;
+    font-family: yp;
+    background-color:black;
+    color:pink;
+    font-size:large;
+}
+
+legend{
+    font-size:xx-large;
+}
+
+fieldset {
+    width:50%;
+    margin:auto;
+}
