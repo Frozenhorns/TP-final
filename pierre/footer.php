@@ -1,0 +1,1 @@
+<footer>IMIE - Siège : 1 rue Victor Hugo - 44400 REZÉ - Tel : 02.28.01.37.54</footer>
