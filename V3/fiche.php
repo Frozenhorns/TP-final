@@ -6,26 +6,9 @@
     <link rel="stylesheet" type="text/css" href="styles.css" media="all"/>
     <link rel="icon" type="image/png" href="images/icone.png" />
     <script type="text/javascript" src="cursus.js"></script>
-    <link rel="stylesheet" href="calendar.css" />
-    <script src="jquery.js"></script>
-    <script src="jqueryUI.js"></script>
-    <script type="text/javascript">
-      $(function() {
-        var date = new Date();
-      var currentMonth = date.getMonth();
-      var currentDate = date.getDate();
-      var currentYear = date.getFullYear();
-      $('#datepicker').datepicker({
-      maxDate: new Date(currentYear,  currentMonth,  currentDate)
-      });
-      });
-    </script>
   </head>
   <body>
     <?php include("header.php"); ?>
-    <a href="http://www.imie-ecole-informatique.fr/" title="Accueil" id="logo" class="left">
-      <img src="images/logo_imie.png">
-    </a>
     <form method="post" action="index.php">
       <div class="blocg">
 	<h3>INFORMATIONS</h3>
@@ -33,8 +16,8 @@
 	<input type="text" name="Lname" id="name" placeholder="Facultatif" size="15" maxlength="15">
 	<label for="Fname">Prénom :</label>
 	<input type="text" name="Fname" id="name" placeholder="Facultatif" size="15" maxlength="15">
-	/ SESSION : <select id="cursus" name="cursus"></select>
-	<select name="session" id="session"></select>					
+	/ SESSION : <select id="cursus" name ="cursus"></select>
+	<select name ="session" id ="session"></select>					
 	<hr>
 	<label for="campus">Campus : </label>
 	<select name="campus" id="campus">
@@ -43,7 +26,7 @@
 	  <option value="Rennes">RENNES</option>
 	</select>
 	Nom du Module :
-	<select name="module" id="module"></select>
+	<select name ="module" id ="module"></select>
 	<label for="contributor">Intervenant :</label>
 	<select name="contributor" id="contributor">
 	  <option value="VB">Vianney BOUCHAUD</option>
@@ -51,10 +34,9 @@
 	  <option value="SB">Stéphane BEIGNET</option>
 	  <option value="BB">Baptiste BEAUPLAT</option>
 	</select>
-        <script language="javascript">
-          funcCursus("cursus", "session", "module");
-        </script>
-        <p>Date: <input type="text" id="datepicker" /></p>
+	<script language="javascript">
+	  funcCursus("cursus", "module","session");
+	</script>
       </div>
     </form>
     <form>
@@ -147,15 +129,6 @@
 	  </div>
 	</p>
       </div>
-      <p>
-        <div class="blocr">
-          <form method="post" action="traitement.php">
-            <h3>Commentaires</h3>
-            <textarea name="com" id="com" rows="15" cols="50">
-            </textarea>
-        </div>
-      </p>
-      </form>
       <div class="sblocb"><a href="valid.php">Valider</a></div>
     </form>
     <?php include("footer.php"); ?>
