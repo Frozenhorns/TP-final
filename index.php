@@ -2,9 +2,23 @@
     <html>
       <meta charset="utf-8"/>
       <link rel="stylesheet" type="text/css" href="index.css">
+      <link rel="stylesheet" href="calendar.css" />
+      <script src="jquery.js"></script>
+      <script src="jqueryUI.js"></script>
+      <script type="text/javascript">
+        $(function() {
+        var date = new Date();
+        var currentMonth = date.getMonth();
+        var currentDate = date.getDate();
+        var currentYear = date.getFullYear();
+        $('#datepicker').datepicker({
+        maxDate: new Date(currentYear,  currentMonth,  currentDate)
+        });
+        });
+      </script>
       <title>Appréciation de fin de module</title>
   </head>
-  <body>
+<body>
     <h1 align="center">APPRECIATION DE FIN DE MODULE</h1>
       <fieldset>
       <legend>Information</legend> 
@@ -45,6 +59,7 @@
             <option value="SB">Stéphane BEIGNET</option>
             <option value="BB">Baptiste BEAUPLAT</option>
           </select>
+          <p>Date: <input type="text" id="datepicker" /></p>
       </fieldset>
       </br>
       <fieldset>
