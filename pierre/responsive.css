@@ -32,6 +32,10 @@
     label{
         display:inline-block;
     }
+
+    textarea {
+        width: 99%;
+    }
 }
 
 @media screen and (max-width: 650px){
@@ -46,5 +50,9 @@
 
     .blocr{
         width: 100%;
+    }
+
+    textarea {
+        width: 98.5%;
     }
 }
