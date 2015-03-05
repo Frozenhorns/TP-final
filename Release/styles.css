@@ -33,68 +33,51 @@ textarea {
 }
 
 .blocb {
-	display: block;
-	margin:auto;
-	margin-bottom:1%;
-	margin-top:1%;
-	padding-top:0.1%;
-	padding-bottom:0.1%;
-	width:55%;
-	background-color:rgba(72, 185, 199, 1);
+    display: block;
+    margin:auto;
+    margin-bottom:1%;
+    margin-top:1%;
+    padding-top:0.1%;
+    padding-bottom:0.1%;
+    width:35%;
+    background-color:rgba(72, 185, 199, 1);
 }
 .blocy {
-	display: block;
-	margin:auto;
-	margin-bottom:1%;
-	margin-top:1%;
-	padding-bottom:0.1%;
-	padding-top:0.1%;
-	width:55%;
-	background-color:rgba(253, 181, 21, 1);
+    display: block;
+    margin:auto;
+    margin-bottom:1%;
+    margin-top:1%;
+    padding-bottom:0.1%;
+    padding-top:0.1%;
+    width:55%;
+    background-color:rgba(253, 181, 21, 1);
 }
 .blocg {
-	display: block;
-	margin:auto;
-	margin-bottom:1%;
-	margin-top:1%;
-	padding-bottom:0.1%;
-        padding-top:0.1%;
-	width:55%;
-	background-color:rgba(87, 188, 116, 1);
+    display: block;
+    margin:auto;
+    margin-bottom:1%;
+    margin-top:1%;
+    padding-bottom:0.1%;
+    padding-top:0.1%;
+    width:55%;
+    background-color:rgba(87, 188, 116, 1);
 }
 .blocr {
-	display: block;
-	margin:auto;
-	margin-bottom:1%;
-	margin-top:1%;
-	padding-top:0.1%;
-	padding-bottom:1%;
-	width:55%;
-	background-color:rgba(238, 49, 36, 1);
+    display: block;
+    margin:auto;
+    margin-bottom:1%;
+    margin-top:1%;
+    padding-top:0.1%;
+    padding-bottom:1%;
+    width:55%;
+    background-color:rgba(238, 49, 36, 1);
 }
-.sblocb {
-	margin:auto;
-	width:15%;
-	margin-bottom:1%;
-	background-color:rgba(72, 185, 199, 1);
-}
-.sblocy {
-	margin:auto;
-	width:15%;
-	margin-bottom:1%;
-	background-color:rgba(253, 181, 21, 1);
-}
+
 .sblocg {
-	margin:auto;
-	width:15%;
-	margin-bottom:1%;
-	background-color:rgba(87, 188, 116, 1);
-}
-.sblocr {
-	margin:auto;
-	width:15%;
-	margin-bottom:1%;
-	background-color:rgba(238, 49, 36, 1);
+    margin:auto;
+    width:15%;
+    margin-bottom:1%;
+    background-color:rgba(87, 188, 116, 1);
 }
 
 .desc {

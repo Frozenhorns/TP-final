@@ -5,11 +5,12 @@
     <title>Identification</title>
     <link rel="stylesheet" type="text/css" href="styles.css" media="all"/>
     <link rel="icon" type="image/png" href="images/icone.png"/>
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
     <?php include("header.php"); ?>
     <p><form>
-	<div class="sblocb"><br/>		
+	<div class="blocb"><br/>		
 	  Nom d'utilisateur :<br/>
 	  <input type="text" name="usr"><br/>
 	  Mot de passe :<br/>
