@@ -1,0 +1,70 @@
+@media screen and (max-width: 1340px) {
+
+    .left {
+        float:none;
+    }
+
+    .blocg{
+        width: 75%;
+    }
+
+    .blocy{
+        width: 75%;
+    }
+
+    .blocr{
+        width: 75%;
+    }
+
+    .validate {
+        width:20%;
+    }
+}
+
+@media screen and (max-width: 990px){
+
+    .desc{
+        float: none;
+        font-weight: bold;
+    }
+    
+    .radio {
+        text-align:center;
+        font-size:small;
+    }
+
+    label{
+        display:inline-block;
+    }
+
+    textarea {
+        width: 99%;
+    }
+
+    .validate {
+        width:25%;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+        .blocg{
+        width: 100%;
+    }
+
+    .blocy{
+        width: 100%;
+    }
+
+    .blocr{
+        width: 100%;
+    }
+
+    textarea {
+        width: 98.5%;
+    }
+
+    .validate {
+    width:35%;
+    }
+}
