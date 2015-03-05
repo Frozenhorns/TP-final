@@ -17,7 +17,6 @@
 	  <input type="password" name="pwd"><br/><br/>
 	  <hr>
 	  <a href="fiche.php"> Connexion </a>
-	  <p><a href="resultats.php"> Résultats </a></p>
 	</div>
     </form></p>
     <?php include("footer.php"); ?>
