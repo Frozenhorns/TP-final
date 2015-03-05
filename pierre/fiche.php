@@ -5,6 +5,7 @@
     <title>Appreciation de fin de module</title>
     <link rel="stylesheet" type="text/css" href="styles.css" media="all"/>
     <link rel="icon" type="image/png" href="images/icone.png" />
+    <link rel="stylesheet" href="responsive.css" />
     <script type="text/javascript" src="cursus.js"></script>
     <link rel="stylesheet" href="calendar.css" />
     <script src="jquery.js"></script>
@@ -33,7 +34,7 @@
 	<input type="text" name="Lname" id="name" placeholder="Facultatif" size="15" maxlength="15">
 	<label for="Fname">Prénom :</label>
 	<input type="text" name="Fname" id="name" placeholder="Facultatif" size="15" maxlength="15">
-	/ SESSION : <select id="cursus" name="cursus"></select>
+	<label for="session">SESSION :<select id="cursus" name="cursus"></select></label>
 	<select name="session" id="session"></select>					
 	<hr>
 	<label for="campus">Campus : </label>
