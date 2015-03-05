@@ -5,20 +5,31 @@ body {
 }
 
 header {
-	background-color:rgba(42, 42, 42, 1);
-	color:rgba(255,255,255,1);
-	font-family:"intro_regular", Candara;
+    background-color:rgba(42, 42, 42, 1);
+    color:rgba(255,255,255,1);
+    font-family:"intro_regular", Candara;
 }
 
 footer {
-	background-color:rgba(42, 42, 42, 1);
-	color:rgba(255,255,255,1);
+    background-color:rgba(42, 42, 42, 1);
+    color:rgba(255,255,255,1);
 }
 
 h3 {
-	background-color:rgba(42, 42, 42, 1);
-	color:rgba(255,255,255,1);
-	font-family:"intro_regular", Candara;
+    background-color:rgba(42, 42, 42, 1);
+    color:rgba(255,255,255,1);
+    font-family:"intro_regular", Candara;
+}
+
+textarea {
+    resize:none;
+    display: block;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 1%;
+    font-size: 1.5em;
+    width: 99%;
+    height: 100px;
+    color: #777;
 }
 
 .blocb {

@@ -151,8 +151,7 @@
         <div class="blocr">
           <form method="post" action="traitement.php">
             <h3>Commentaires</h3>
-            <textarea name="com" id="com" rows="15" cols="50">
-            </textarea>
+            <textarea name="com" id="com" placeholder="Laissez un commentaire sur la prestation (optionnel)" tabindex="5" class="txtblock"></textarea>
         </div>
       </p>
       </form>
