@@ -109,4 +109,8 @@ textarea {
 
 .left {
     float:left;
-} 
+}
+
+label {
+    display:inline;
+}

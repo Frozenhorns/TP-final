@@ -28,6 +28,10 @@
         text-align:center;
         font-size:small;
     }
+
+    label{
+        display:inline-block;
+    }
 }
 
 @media screen and (max-width: 650px){
