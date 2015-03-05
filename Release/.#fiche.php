@@ -1,1 +1,0 @@
-richar_z@richard-G750JX.6210:1425543175
